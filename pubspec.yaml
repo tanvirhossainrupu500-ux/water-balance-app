@@ -1,1 +1,35 @@
-flutter pub get
+name: water_balance_app
+description: A Flutter app to check Drinkwell water ATM card balance
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI related
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+
+  # State management
+  provider: ^6.0.5
+
+  # API requests (পরে ব্যবহার হবে)
+  http: ^0.13.6
+
+  # Local storage (পরে ব্যবহার হবে)
+  shared_preferences: ^2.2.2
+
+  # Animation
+  flutter_animate: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
