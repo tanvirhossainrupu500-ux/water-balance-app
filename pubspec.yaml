@@ -18,10 +18,10 @@ dependencies:
   # State management
   provider: ^6.0.5
 
-  # API requests (পরে ব্যবহার হবে)
-  http: ^0.13.6
+  # API requests
+  http: ^1.1.0
 
-  # Local storage (পরে ব্যবহার হবে)
+  # Local storage
   shared_preferences: ^2.2.2
 
   # Animation
